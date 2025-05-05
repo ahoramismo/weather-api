@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+</head>
+<body>
+  <h1>this is index page</h1>
+  <p>Welcome to the index page!</p>
+  <p>enter the city below(ex, seoul)</p>
+  <form action="/api" method="POST">
+    <input type="text" name="location" placeholder="Enter your location" required>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
